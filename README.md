@@ -42,10 +42,13 @@ ZSlow is a versatile plugin designed to manage chat activity on your Minecraft s
 - `zslow.status`: Allows access to view the current status of chat management features.
 - `zslow.reload`: Allows access to reload plugin configurations.
 - `zslow.chatlogs`: Allows access to enable or disable chat logging.
+- `zslow.bypass.slowmode`: Allows bypassing the slowmode restrictions in ZSlow.
+- `zslow.bypass.pausechat`:  Allows bypassing the pausechat restrictions in ZSlow.
+- `zslow.chatlogs.exempt`: Allows bypassing the pausechat restrictions in ZSlow.
 
 ## Support
 
-For support or assistance with the ZSlow plugin, please visit our [GitHub repository](https://github.com/zuhaz/zslow) or contact us through the SpigotMC forums.
+For support or assistance with the ZSlow plugin, please visit our [GitHub repository](https://github.com/zuhaz/zslow) or contact us through the SpigotMC forums or join our [Discord Server](https://discord.gg/7mhdvfgybX).
 
 ## Installation
 

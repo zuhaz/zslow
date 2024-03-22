@@ -20,16 +20,28 @@ ZSlow is a versatile plugin designed to manage chat activity on your Minecraft s
 
 ## Commands
 
-- `/zslow enable`: Enable chat management features.
-- `/zslow disable`: Disable chat management features.
-- `/zslow settings`: Adjust plugin settings.
-- `/zslow whitelist`: Manage players on the whitelist.
-- `/zslow blacklist`: Manage players on the blacklist.
-- `/zslow pausechat`: Pause or resume chat activity.
-- `/zslow help`: Display plugin help information.
-- `/zslow status`: View the current status of chat management features.
-- `/zslow reload`: Reload plugin configurations.
-- `/zslow chatlogs`: Enable or disable chat logging.
+- **/zslow enable**: Activate the chat management system.
+- **/zslow disable**: Deactivate the chat management system.
+- **/zslow settings**: Configure plugin settings, including chat cooldown.
+- **/zslow info**: Obtain information about the plugin.
+- **/zslow whitelist**:
+    - `/zslow whitelist add <player>`: Add a player to the whitelist.
+    - `/zslow whitelist remove <player>`: Remove a player from the whitelist.
+    - `/zslow whitelist list`: Display all whitelisted players.
+- **/zslow blacklist**:
+    - `/zslow blacklist add <player>`: Add a player to the blacklist.
+    - `/zslow blacklist remove <player>`: Remove a player from the blacklist.
+    - `/zslow blacklist list`: Display all blacklisted players.
+- **/zslow pausechat**:
+    - `/zslow pausechat on`: Pause the chat.
+    - `/zslow pausechat off`: Unpause the chat.
+- **/zslow help**: Access plugin help information.
+- **/zslow status**: Check the status of the chat management system.
+- **/zslow reload**: Reload plugin configurations.
+- **/zslow chatlogs**:
+    - `/zslow chatlogs on`: Enable chat logging.
+    - `/zslow chatlogs off`: Disable chat logging.
+
 
 ## Permissions
 

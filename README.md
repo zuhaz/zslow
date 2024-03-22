@@ -60,6 +60,3 @@ For support or assistance with the ZSlow plugin, please visit our [GitHub reposi
 ## License
 
 ZSlow is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-
-

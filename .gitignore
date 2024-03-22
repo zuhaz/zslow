@@ -1,0 +1,35 @@
+# Maven target directory
+target/
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Maven build files
+*.jar
+*.war
+*.ear
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Intellij IDEA project files
+*.iws
+
+# NetBeans project files
+nbproject/
+
+# Build directories for maven
+/target/
+/build/
+/bin/
+
+# Logs
+*.log
+
+# Generated files by certain plugins (like Lombok)
+lombok.config
+
+temp.txt

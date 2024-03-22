@@ -1,0 +1,59 @@
+name: ZSlow
+version: '${project.version}'
+main: me.zuhaz.zslow.Main.ZSlow
+api-version: '1.14'
+load: STARTUP
+author: Zuhaz
+description: ZSlow is a plugin designed to manage chat activity on the server by providing features such as chat pausing, slow mode, and chat logging.
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.23
+commands:
+  zslow:
+    description: Chat ZSlowmode Command
+    tabCompleter: me.zuhaz.zslow.Other.TabCompleterManager
+permissions:
+  zslow.admin:
+    description: Allows all commands and is specifically designed for server admins.
+    default: op
+  zslow.whitelist:
+    description: Allows access to the whitelist command in ZSlow.
+    default: op
+  zslow.blacklist:
+    description: Allows access to the blacklist command in ZSlow.
+    default: op
+  zslow.info:
+    description: Allows access to the info command in ZSlow.
+    default: true
+  zslow.pausechat:
+    description: Allows access to the pausechat command in ZSlow.
+    default: op
+  zslow.help:
+    description: Allows access to the help command in ZSlow.
+    default: true
+  zslow.status:
+    description: Allows access to the status command in ZSlow.
+    default: op
+  zslow.reload:
+    description: Allows access to the reload command in ZSlow.
+    default: op
+  zslow.enable:
+    description: Allows access to the enable command in ZSlow.
+    default: op
+  zslow.disable:
+    description: Allows access to the disable command in ZSlow.
+    default: op
+  zslow.settings:
+    description: Allows access to the settings command in ZSlow.
+    default: op
+  zslow.chatlogs:
+    description: Allows access to the chatlogs command in ZSlow.
+    default: op
+  zslow.bypass.slowmode:
+    description: Allows bypassing the slowmode restrictions in ZSlow.
+    default: op
+  zslow.bypass.pausechat:
+    description: Allows bypassing the pausechat restrictions in ZSlow.
+    default: op
+  zslow.chatlogs.exempt:
+    description: Allows bypassing the pausechat restrictions in ZSlow.
+    default: op

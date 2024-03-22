@@ -1,0 +1,81 @@
+# Author: Zuhaz
+
+# This file contains various messages used by the plugin for user feedback and notifications.
+# Messages are formatted using Minecraft's color codes and placeholders for dynamic content (don't change these placeholders).
+
+# NOTE: DON'T TOUCH THE PLACEHOLDERS, for example, {cooldown}, {player}, etc
+
+messages:
+  # General Messages
+  no_permission: "&cYou don't have permission to use this command."
+  invalid_command: "&cInvalid command usage."
+  invalid_delay: "&cInvalid delay value."
+  no_reload_permission: "&cYou don't have permission to reload this plugin."
+  pause_chat: "&cYou cannot send messages because the chat is currently paused."
+  you_are_blacklisted: "&cYou can't send messages in the chat because you are blacklisted. Please contact an administrator to be removed from the blacklist."
+  invalid_page_number: "&cInvalid page number. Please specify a number between 1 and {totalpages}."
+  already_in_whitelist: "&cPlayer is already whitelisted."
+  already_in_blacklist: "&cPlayer is already blacklisted."
+  whitelist_not_found: "&cThis player is not whitelisted."
+  blacklist_not_found: "&cThis player is not blacklisted."
+  remove_from_blacklist: "&cThis player is already blacklisted. You'll need to remove this player from the blacklist to whitelist them."
+  remove_from_whitelist: "&cThis player is already whitelisted. You'll need to remove this player from the whitelist to blacklist them."
+  cant_whitelist_admin: "&cYou can't whitelist an admin or operator."
+  cant_blacklist_admin: "&cYou can't blacklist an admin or operator."
+  invalid_time_format: "&cInvalid time format. Please provide a valid integer."
+  player_not_found: "&cPlayer &7{player} &cnot found"
+  not_a_valid_player: "&cPlease specify a valid player name."
+
+  # Success Messages
+  slowmode_enabled: "&cSlow mode enabled with a delay of &7{cooldown} &cseconds."
+  slowmode_disabled: "&cSlow mode disabled."
+  reloaded_plugin: "&aPlugin reloaded successfully."
+  enable_pause: "&aChat pause enabled."
+  disable_pause: "&cChat pause disabled."
+  whitelist_add: "&aSuccessfully added &7{player} &ato the slow mode whitelist."
+  whitelist_remove: "&cSuccessfully removed &7{player} &cfrom the slow mode whitelist."
+  blacklist_add: "&aSuccessfully added &7{player} &ato the slow mode blacklist."
+  blacklist_remove: "&cSuccessfully removed &7{player} &cfrom the slow mode blacklist."
+  chatlogs_enabled: "&aChat logs enabled."
+  chatlogs_disabled: "&cChat logs disabled."
+  cooldown_set: "&aCooldown set to &7{time}."
+  cooldown_reset: "&aCooldown has been reset."
+  whitelisted_players: "&cWhitelisted players: &7{whitelistedplayers}"
+  blacklisted_players: "&cBlacklisted players: &7{blacklistedplayers}"
+
+  # Informational Messages
+  slowmode_remaining: "&cYou are in slow mode. Please wait &7{remaining} &cseconds before sending another message."
+
+  # Help Messages
+  help_header: "&7===== &cZSlow Commands (Page {page}/{totalPages}) &7====="
+  help_next_page: "&7Type &c/zslow help {page} &7for the next page."
+  help_messages:
+    - "&c/zslow whitelist add <player> &7- Add a player to the whitelist."
+    - "&c/zslow whitelist remove <player> &7- Remove a player from the whitelist."
+    - "&c/zslow blacklist add <player> &7- Add a player to the blacklist."
+    - "&c/zslow blacklist remove <player> &7- Remove a player from the blacklist."
+    - "&c/zslow info &7- Display plugin information."
+    - "&c/zslow pausechat <on/off> &7- Enable or disable chat pausing."
+    - "&c/zslow status &7- Display the current status of the plugin."
+    - "&c/zslow help &7- Display this help message."
+    - "&c/zslow reload &7- Reload the plugin configuration."
+    - "&c/zslow enable/disable &7- Enable or disable the plugin."
+    - "&c/zslow settings cooldown set <time> &7- Set the chat cooldown time."
+    - "&c/zslow settings cooldown reset &7- Reset the chat cooldown time."
+    - "&c/zslow chatlogs <on/off> &7- Enable or disable chat logging."
+
+  # Plugin Information Messages
+  info_messages:
+    - "&7===== &cZSlow Plugin Information &7====="
+    - "&cVersion: &7{version}"
+    - "&cAuthor: &7{author}"
+    - "&cDescription: &7{description}"
+    - "&cWebsite: &7{website}"
+
+  # Plugin Status Messages
+  status_messages:
+    - "&7===== &cZSlow Plugin Status &7====="
+    - "&cEnabled: &7{enabled}"
+    - "&cCooldown Time: &7{cooldown}"
+    - "&cChat Paused: &7{paused}"
+    - "&cChat Logging: &7{logging}"

@@ -1,0 +1,20 @@
+# Configuration file for the ZSlow plugin
+
+# Prefix for all messages sent by the plugin
+prefix: '&7[&c&lZSlow&7] '
+
+# Slow Mode Settings
+slowmode:
+  # Whether the slow mode feature should be enabled or not
+  enabled: true
+  # The message cooldown amount in seconds (2 = two seconds, etc)
+  # This determines how long players must wait between sending messages
+  cooldown: 2
+  # Notify players when they are in slow mode and how long they have to wait
+  # This could be a reminder message or a countdown to the next message they can send
+  notification_enabled: true
+
+# Chat Logs Settings
+chat_logs:
+  # Whether you want to enable the chat logs or not
+  enabled: false

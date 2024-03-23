@@ -5,6 +5,7 @@
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/zuhaz/zslow/total?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/zuhaz/zslow?style=for-the-badge)
 
+![ZSLOW](https://cdn.discordapp.com/attachments/1192128307731378266/1220896106251288699/Zslow_Description_Stuff.png?ex=66109b1a&is=65fe261a&hm=79c534fd5adf692544f9fb5512065346f39d7cbeb9dad8985f7243f9f9752a09&)
 
 # ZSlow
 

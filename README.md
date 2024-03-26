@@ -5,12 +5,13 @@
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/zuhaz/zslow/total?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/zuhaz/zslow?style=for-the-badge)
 
+![ZSLOW](https://cdn.discordapp.com/attachments/1192128307731378266/1220896106251288699/Zslow_Description_Stuff.png?ex=66109b1a&is=65fe261a&hm=79c534fd5adf692544f9fb5512065346f39d7cbeb9dad8985f7243f9f9752a09&)
 
 # ZSlow
 
 ZSlow is a versatile plugin designed to manage chat activity on your Minecraft server. With ZSlow, server administrators can easily control chat by enabling features such as chat pausing, slow mode, and chat logging. Whether you're looking to maintain a more organized chat environment or implement stricter chat regulations, ZSlow provides the tools you need to manage chat activity effectively.
 
-## Features
+![FEATURES](https://media.discordapp.net/attachments/1192128307731378266/1220899246136365137/ZSlow_Features_Banner.png?ex=66109e07&is=65fe2907&hm=da3c8b36d56f37d79d4b98a17d4605563723a5d90a252ac6706cc40124c9fb61&=&format=webp&quality=lossless&width=1440&height=168)
 
 - **Chat Pausing:** Temporarily pause chat activity to prevent messages from being sent.
 - **Slow Mode:** Limit the frequency of messages in the chat to reduce spam and maintain order.
@@ -18,7 +19,7 @@ ZSlow is a versatile plugin designed to manage chat activity on your Minecraft s
 - **Whitelist and Blacklist:** Control who can send messages by adding players to either the whitelist or blacklist.
 - **Customizable Settings:** Adjust plugin settings to suit your server's needs and preferences.
 
-## Commands
+![COMMANDS](https://media.discordapp.net/attachments/1192128307731378266/1220898956914200677/ZSlow_Commands_Banner.png?ex=66109dc2&is=65fe28c2&hm=1236a9952d2ea2b7e39c5431904e00ea8b65693a852944278069599849573d60&=&format=webp&quality=lossless&width=1440&height=168)
 
 - **/zslow enable**: Activate the chat management system.
 - **/zslow disable**: Deactivate the chat management system.
@@ -43,7 +44,7 @@ ZSlow is a versatile plugin designed to manage chat activity on your Minecraft s
     - `/zslow chatlogs off`: Disable chat logging.
 
 
-## Permissions
+![PERMISSIONS](https://media.discordapp.net/attachments/1192128307731378266/1220898991924056104/ZSlow_Permissions_Banner.png?ex=66109dca&is=65fe28ca&hm=c3190c75f54d191e40e17da1e5132e5bb22f07f16bc29bb0780dc89f99315fc9&=&format=webp&quality=lossless&width=1440&height=168)
 
 - `zslow.admin`: Allows access to all ZSlow commands and features.
 - `zslow.whitelist`: Allows access to manage players on the whitelist.

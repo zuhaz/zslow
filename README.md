@@ -65,7 +65,7 @@ For support or assistance with the ZSlow plugin, please visit our [GitHub reposi
 
 ## Installation
 
-1. Download the latest version of ZSlow from the [releases page](https://github.com/zuhaz/zslow/releases).
+1. Download the latest version of ZSlow from the [releases page](https://github.com/zuhaz/zslow/releases). 
 2. Place the downloaded `.jar` file in your server's `plugins` folder.
 3. Restart or reload your server.
 
